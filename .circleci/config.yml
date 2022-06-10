@@ -19,8 +19,8 @@ jobs:
 
   analyze:
     <<: *defaults
-      steps:
-        - run: npm audit
+    steps:
+      - run: npm audit
 
 workflows:
   react_build_workflow:
